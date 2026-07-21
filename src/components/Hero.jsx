@@ -51,7 +51,9 @@ export default function Hero(){
                     <div className="flex gap-4 mt-10">
 
                         <button
-                        className="px-6 py-3 bg-cyan-600 rounded-xl text-white hover:scale-105 transition">
+                        onClick={() =>
+                            document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}
+                          className="px-6 py-3 bg-cyan-600 rounded-xl text-white hover:scale-105 transition">
                             View Projects
                         </button>
                         <button>
