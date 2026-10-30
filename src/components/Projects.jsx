@@ -7,6 +7,7 @@ import {
 import leafImg from "../assets/images/leaf.png";
 import heartImg from "../assets/images/heart.png";
 import researchImg from "../assets/images/research.png";
+import jobpilotIMg from "../assets/images/jobpilot.png";
 
 const projects = [
 {
@@ -37,35 +38,36 @@ const projects = [
 },
 
 {
-  title: "Heart Disease Prediction",
+  title: "JobPilot - AI Job Tracker & Resume Analyzer",
 
-  image: heartImg,
+  image: jobpilotIMg,
 
   description:
-    "Machine learning web application for predicting cardiovascular disease risk.",
+    "Full-stack web application to track job applications and analyze how well a resume matches a job description.",
 
   highlights: [
-    "Processed 1000+ patient records",
-    "Trained and evaluated 5 ML models",
-    "Random Forest achieved 94% accuracy",
-    "ROC-AUC Score: 1.00",
-    "Deployed using Django"
+    "React frontend with Django REST Framework backend",
+    "Track applications by status: Applied, Interview, Offer, Rejected",
+    "Resume vs job description match scoring using scikit-learn",
+    "Identifies missing skills and keywords",
+    "SQL database with REST API integration"
   ],
 
   technologies: [
     "Python",
-    "Scikit-learn",
     "Django",
-    "HTML",
+    "React",
+    "Scikit-learn",
+    "SQL",
     "CSS",
-    "JavaScript"
+    "Rest APIs"
   ],
 
-  github:"https://github.com/SATISH-1711/Heart-Disease-Prediction",
+  github:"https://github.com/SATISH-1711/Jobpilot",
   demo:"#",
 },
 
-  {
+{
   title:"Decentralized Research & Collaboration Platform",
 
   image:researchImg,
@@ -93,6 +95,36 @@ const projects = [
   ],
 
   github:"https://github.com/SATISH-1711/Decentralized-Research-and-Collaboration-Platform",
+  demo:"#",
+},
+
+
+{
+  title: "Heart Disease Prediction",
+
+  image: heartImg,
+
+  description:
+    "Machine learning web application for predicting cardiovascular disease risk.",
+
+  highlights: [
+    "Processed 1000+ patient records",
+    "Trained and evaluated 5 ML models",
+    "Random Forest achieved 94% accuracy",
+    "ROC-AUC Score: 1.00",
+    "Deployed using Django"
+  ],
+
+  technologies: [
+    "Python",
+    "Scikit-learn",
+    "Django",
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+
+  github:"https://github.com/SATISH-1711/Heart-Disease-Prediction",
   demo:"#",
 },
 ];
